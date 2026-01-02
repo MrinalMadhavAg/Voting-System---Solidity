@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getVotes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum TwoCandidateVoting.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "toggleVoting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_candidateId",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "votingStatus",
+				"outputs": [
+					{
+						"internalType": "enum TwoCandidateVoting.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"VotingContract.sol": "TwoCandidateVoting"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"VotingContract.sol": {
+			"keccak256": "0xfd37f4987708c1372914a1141cf43922f4916497db23116231d7eedae6310f17",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2865c77530807f9976f8e1944232cc4ce563e65e8f93eeb68686e596d015fa9e",
+				"dweb:/ipfs/QmPSECaa7xM2tcSTJqdA6z42cDymVscinXHHD64HiUwhL3"
+			]
+		}
+	},
+	"version": 1
+}
